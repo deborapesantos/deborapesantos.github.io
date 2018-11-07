@@ -1,451 +1,88 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
-@font-face {
-	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot');
-	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/icomoon.woff') format('woff'),
-		url('../fonts/icomoon.ttf') format('truetype'),
-		url('../fonts/icomoon.svg#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
 
-body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
 
-*,
-*:after,
-*:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
 
-body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #f2ede3;
-    background: #333;
-    font-size: 0.9em;
-    font-weight: 300;
-}
 
-a {
-	color: #f0f0f0;
-	text-decoration: none;
-	font-weight: 700;
-	letter-spacing: 2px;
-	padding: 0 5px;
-	text-transform: uppercase;
-	font-size: 80%;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Themis Bear | Kickresume</title>
+  
 
-a:hover {
-	color: #fff;
-}
+<link rel="apple-touch-icon" sizes="57x57" href="https://d1civoyjepycei.cloudfront.net/static/img/favicon/apple-icon-57x57.68c9b9fc16a5.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://d1civoyjepycei.cloudfront.net/static/img/favicon/apple-icon-60x60.6882fca43706.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://d1civoyjepycei.cloudfront.net/static/img/favicon/apple-icon-72x72.488cb6b05da8.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://d1civoyjepycei.cloudfront.net/static/img/favicon/apple-icon-76x76.63c3c834c810.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://d1civoyjepycei.cloudfront.net/static/img/favicon/apple-icon-114x114.20fa52c3ac8c.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://d1civoyjepycei.cloudfront.net/static/img/favicon/apple-icon-120x120.b4d5d3110a3d.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://d1civoyjepycei.cloudfront.net/static/img/favicon/apple-icon-144x144.f8499cb96f96.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://d1civoyjepycei.cloudfront.net/static/img/favicon/apple-icon-152x152.53e239bf400c.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://d1civoyjepycei.cloudfront.net/static/img/favicon/apple-icon-180x180.16c15886523c.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://d1civoyjepycei.cloudfront.net/static/img/favicon/android-icon-192x192.54e58a5d175d.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://d1civoyjepycei.cloudfront.net/static/img/favicon/favicon-32x32.364133c93271.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://d1civoyjepycei.cloudfront.net/static/img/favicon/favicon-96x96.b719f0fbb1c1.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://d1civoyjepycei.cloudfront.net/static/img/favicon/favicon-16x16.efb126f168d4.png">
+<link rel="manifest" href="https://d1civoyjepycei.cloudfront.net/static/img/favicon/manifest.b58fcfa7628c.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://d1civoyjepycei.cloudfront.net/static/img/favicon/ms-icon-144x144.2caa514bd78a.png">
+<meta name="theme-color" content="#ffffff">
 
-.container { height: 100%; }
+  
+      
 
-.bl-main {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-}
 
-.bl-main > section {
-	position: absolute;
-	width: 50%;
-	height: 50%;
-}
+<meta name="copyright" content="Kickresume">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="msvalidate.01" content="03ACE49A3D61ECC4326697BAB3078F0E" />
+<meta name="google-site-verification" content="xfHLcin4X0uCrY2BKtK5xlG52Tt1rovWsr5xNak5Q00" />
 
-.bl-main > section:first-child {
-	top: 0;
-	left: 0;
-	background: #F06060;
-}
+      
+      <meta property="og:image" content="https://s3-eu-west-1.amazonaws.com/cvs-kickresume-com/785807/658ca2c80c2d1e0f79168dabe1bfa813/thumbnail.jpg" />
+      
+  
 
-.bl-main > section:nth-child(2) {
-	top: 0;
-	left: 50%;
-	background: #FA987D;
-}
+  
+		<link rel="stylesheet" href="https://d2sn08my3g92cp.cloudfront.net/ionicons.css">
+    <link rel="stylesheet" href="https://d2sn08my3g92cp.cloudfront.net/fontastic.css">
+  
 
-.bl-main > section:nth-child(3) {
-	top: 50%;
-	left: 0;
-	background: #72CCA7;
-}
+	
+	<!-- start Mixpanel -->
+	<script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+	0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+	for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+	mixpanel.init("b791f915eca759ef58baa13a13979770");</script>
+	<!-- end Mixpanel -->
+	
 
-.bl-main > section:nth-child(4) {
-	top: 50%;
-	left: 50%;
-	background: #10A296;
-}
 
-.bl-box {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	cursor: pointer;
-	opacity: 1;
-	/* Centering with flexbox */
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
 
-.bl-box h2 {
-	text-align: center;
-	margin: 0;
-	padding: 20px;
-	width: 100%;
-	font-size: 1.8em;
-	letter-spacing: 2px;
-	font-weight: 700;
-	text-transform: uppercase;
-}
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Intl.~locale.en,Array.prototype.includes,Function.name"></script>
+  
+</head>
+<body>
+  <section id="mainsection" class="">
+    <main>
+      
+        <div id="app"></div>
+      
+    </main>
+  </section>
 
-.bl-icon {
-	font-family: 'icomoon';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	cursor: pointer;
-	-webkit-font-smoothing: antialiased;
-}
+  <script src="https://d1civoyjepycei.cloudfront.net/static/js/sentry.conf.c892e29f80f1.js"></script>
 
-.bl-icon:before {
-	display: block;
-	font-size: 2em;
-	margin-bottom: 10px;
-}
+  
 
-.bl-icon-about:before {
-	content: "\e000";
-}
 
-.bl-icon-works:before {
-	content: "\e001";
-}
+  
+    <script src="https://d1civoyjepycei.cloudfront.net/static/assets/dependencies.dll.ace151953c1f.js"></script>
+    
+      <script src="https://d1civoyjepycei.cloudfront.net/static/assets/common.d8b7707ce55a.js"></script>
+      <script src="https://d1civoyjepycei.cloudfront.net/static/assets/kickresume.1aef00c7af6d.js"></script>
+    
+  
 
-.bl-icon-blog:before {
-	content: "\e002";
-}
-
-.bl-icon-contact:before {
-	content: "\e003";
-}
-
-.bl-main > section .bl-icon-close {
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	cursor: pointer;
-	z-index: 100;
-	opacity: 0;
-	pointer-events: none;
-}
-
-.bl-icon-close:before {
-	content: "\e005";
-}
-
-.bl-content, 
-div.bl-panel-items > div > div {
-	opacity: 0;
-	pointer-events: none;
-	position: absolute;
-	top: 60px;
-	left: 30px;
-	right: 30px;
-	bottom: 30px;
-	padding: 0 20px;
-	overflow: hidden;
-	overflow-y: auto;
-}
-
-/* Custom content */
-
-.bl-content p {
-	margin: 0 auto;
-	padding-bottom: 15px;
-	font-size: 1.7em;
-	line-height: 1.8;
-}
-
-.bl-content h2 {
-	font-size: 3em;
-	font-weight: 300;
-	margin: 0 0 20px 0;
-}
-
-.bl-content article {
-	padding: 20px 40px 20px 0px;
-}
-
-.bl-content article h3 {
-	font-weight: 700;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	margin: 0 0 10px 0;
-	padding-top: 20px;
-	font-size: 1.4em;
-}
-
-.bl-content article a {
-	color: rgba(0,0,0,0.2);
-}
-
-.bl-content > ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-} 
-
-.bl-content > ul li {
-	display: inline-block;
-	width: 20%;
-	margin: 1%;
-}
-
-.bl-content > ul li a {
-	display: block;
-	padding: 0;
-	border: 8px solid rgba(0,0,0,0.1);
-}
-
-.bl-content > ul li a img {
-	display: block;
-	max-width: 100%;
-}
-
-/* Panel Items */
-
-div.bl-panel-items,
-div.bl-panel-items > div {
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	position: absolute;
-}
-
-div.bl-panel-items > div > div {
-	width: 60%;
-	margin: 0 auto;
-	opacity: 1;
-	bottom: 90px;
-	top: 90px;
-	pointer-events: auto;
-}
-
-div.bl-panel-items > div > div h3 {
-	font-size: 2.4em;
-	font-weight: 300;
-	margin: 0 0 20px 0;
-}
-
-div.bl-panel-items > div > div p {
-	font-size: 1.3em;
-}
-
-div.bl-panel-items > div > div img {
-	float: left;
-	margin: 0 20px 20px 0;
-	max-width: 100%;
-}
-
-div.bl-panel-items {
-	top: 100%;
-	z-index: 9999;
-}
-
-div.bl-panel-items > div {
-	background: #3ba5db;
-	z-index: 0;
-	opacity: 0;
-	-webkit-transform: translateY(0);
-	-webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 0s linear 0.5s;
-	-moz-transform: translateY(0);
-	-moz-transition: -moz-transform 0.5s ease-in-out, opacity 0s linear 0.5s;
-	transform: translateY(0);
-	transition: transform 0.5s ease-in-out, opacity 0s linear 0.5s;
-	-ms-transform: translateY(0);
-}
-
-div.bl-panel-items nav {
-	position: absolute;
-	z-index: 9999;
-	width: 216px;
-	left: 50%;
-	top: 0px;
-	margin-left: -108px;
-	opacity: 0;
-	-webkit-transition: opacity 0.2s ease-in-out 0.5s;
-	-moz-transition: opacity 0.2s ease-in-out 0.5s;
-	transition: opacity 0.2s ease-in-out 0.5s;
-}
-
-div.bl-panel-items.bl-panel-items-show nav span {
-	float: left;
-	margin: 5px;
-}
-
-div.bl-panel-items nav span.bl-next-work {
-	font-weight: 700;
-	letter-spacing: 2px;
-	display: block;
-	text-transform: uppercase;
-	line-height: 2em;
-	cursor: pointer;
-	margin-right: 2em;
-}
-
-div.bl-panel-items.bl-panel-items-show nav {
-	opacity: 1;
-	top: -70px;
-}
-
-div.bl-panel-items > div.bl-show-work {
-	z-index: 1000;
-	opacity: 1;
-	-webkit-transform: translateY(-100%);
-	-webkit-transition: -webkit-transform 0.5s ease-in-out;
-	-moz-transform: translateY(-100%);
-	-moz-transition: -moz-transform 0.5s ease-in-out;
-	transform: translateY(-100%);
-	transition: transform 0.5s ease-in-out;
-	-ms-transform: translateY(-100%);
-}
-
-div.bl-panel-items > div.bl-hide-current-work {
-	opacity: 0;
-	-webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-	-webkit-transform: translateY(-100%) scale(0.5);
-	-moz-transition: -moz-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-	-moz-transform: translateY(-100%) scale(0.5);
-	transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-	transform: translateY(-100%) scale(0.5);
-	-ms-transform: translateY(-100%) scale(0.5);
-	z-index: 0;
-}
-
-/* Transition classes and properties */
-/* Separated for a better overview and control */
-
-.bl-main > section {
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-}
-
-.bl-main > section.bl-expand {
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-}
-
-.bl-main > section.bl-expand-top {
-	z-index: 100;
-}
-
-.bl-main > section:first-child.bl-expand {
-	background: #EE4444;
-}
-.bl-main > section:nth-child(2).bl-expand {
-	background: #F98262;
-}
-.bl-main > section:nth-child(3).bl-expand {
-	background: #4BBE8E;
-}
-.bl-main > section:nth-child(4).bl-expand {
-	background: #0D8278;
-}
-
-.bl-main.bl-expand-item > section:not(.bl-expand),
-.bl-main.bl-expand-item > section.bl-scale-down {
-	-webkit-transform: scale(0.5);
-	-moz-transform: scale(0.5);
-	-ms-transform: scale(0.5);
-	transform: scale(0.5);
-	opacity: 0;
-}
-
-.bl-box {
-	-webkit-transition: opacity 0.2s linear 0.5s;
-	-moz-transition: opacity 0.2s linear 0.5s;
-	transition: opacity 0.2s linear 0.5s;
-}
-
-section.bl-expand .bl-box {
-	opacity: 0;
-	-webkit-transition: opacity 0s linear;
-	-moz-transition: opacity 0s linear;
-	transition: opacity 0s linear;
-}
-
-.bl-box h2 {
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
-}
-
-.no-touch section:not(.bl-expand) .bl-box:hover h2 {
-	-webkit-transform: translateY(-15px);
-	-moz-transform: translateY(-15px);
-	-ms-transform: translateY(-15px);
-	transform: translateY(-15px);
-}
-
-.bl-content,
-.bl-icon-close {
-	-webkit-transition: opacity 0.1s linear 0s;
-	-moz-transition: opacity 0.1s linear 0s;
-	transition: opacity 0.1s linear 0s;
-}
-
-section.bl-expand .bl-content,
-section.bl-expand .bl-icon-close {
-	pointer-events: auto;
-	opacity: 1;
-	-webkit-transition: opacity 0.3s linear 0.5s;
-	-moz-transition: opacity 0.3s linear 0.5s;
-	transition: opacity 0.3s linear 0.5s;
-}
-
-@media screen and (max-width: 46.5em) {
-	.bl-content,
-	.bl-box {
-		font-size: 75%;
-	}
-
-	.bl-expand .bl-box {
-		height: 130px;
-	}
-
-	.bl-content > ul li {
-		width: 40%;
-	}
-}
+</body>
+</html>
